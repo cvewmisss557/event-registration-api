@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://localhost:8080/api/events
+description: ""
+url: http://localhost:8080/api/events
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Spring Boot Workshop\",\r
+
+    \  \"location\": \"Almaty\"\r
+
+    }"
+order: 1000
